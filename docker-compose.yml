@@ -1,7 +1,7 @@
 version: '3'
 services:
   web:
-    image: web-image
+    image: web-image-ubuntu
     build: .
     container_name: my-static-site
     restart: always
